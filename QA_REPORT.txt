@@ -1,0 +1,15 @@
+ARCHE ACADEMY QA REPORT
+
+Automated checks passed:
+- 8 required HTML pages present
+- Local internal file references resolve
+- Relative asset paths used (no /assets root path)
+- Page title + meta description present
+- Image alt attributes present
+- No Lorem Ipsum placeholder text
+- No 100vw usage in CSS
+- No LocalStorage usage for personal data
+- JavaScript syntax checked separately with Node.js
+- Responsive breakpoints include <=1100, <=920, <=700, <=390
+
+Manual browser review is still recommended after GitHub Pages deployment because rendering can differ by browser/device.
